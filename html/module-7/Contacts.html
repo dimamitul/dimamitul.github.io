@@ -60,11 +60,11 @@
         </div>
         <div class="wrapper flex_row">
             <div class="maps">
+                <h1 class="color_text">STAY IN TOUCH</h1>
                 <div class="maps_container flex_row">
-                    <h1 class="color_text">STAY IN TOUCH</h1>
                     <div class="view_on_the_map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12119.869774402148!2d-73.97153176931148!3d40.58647403042088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2445b5ef9426f%3A0x5fb7c3bcf8552b1f!2sNYC+Health+%2B+Hospitals%2FConey+Island!5e0!3m2!1sru!2sua!4v1510878901179"
-                            width="360 " height="400 " frameborder="0" style="border:0" allowfullscreen></iframe>
+                            width="100% " height="400 " frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <div class="information flex_column">
                         <span class="color_information">8901 Marmora Road,
@@ -91,27 +91,28 @@
                 </div>
             </div>
             <div class="email">
+                <h1 class="color_text">CONTACT US</h1>
                 <div class="email_container">
-                    <h1 class="color_text">CONTACT US</h1>
-                    <form action="/action_page.php">
-                        <input type="text" name="firstname" value="NAME" class="color_text">
+                    <form action="">
+                        <input class="form_input" type="text" name="firstname" placeholder="NAME">
                         <br>
                         <br>
-                        <input type="text" name="lastname" value="EMAIL" class="color_text">
+                        <input class="form_input" type="text" name="lastname" placeholder="EMAIL">
                         <br>
                         <br>
-                        <input type="text" name="firstname" value="SUBJECT" class="color_text">
+                        <input class="form_input" type="text" name="firstname" placeholder="SUBJECT">
                         <br>
                         <br>
+                        <textarea class="form_input" name="comments" rows="15" placeholder="MESSAGE">
+                            
+                        </textarea>
+                        <br/>
+                        <div class="button_container">
+                            <button class="button">Clear</button>
+                            <button class="button">Send</button>
+                        </div>
                     </form>
-                    <textarea name="comments" rows="15" cols="22" placeholder="For comments" class="color_text">
-                    MESSAGE
-                  </textarea>
-                    <br/>
-                    <div class="button_container">
-                        <button class="button">Clear</button>
-                        <button class="button">Send</button>
-                    </div>
+
                 </div>
             </div>
             <span class="return_to_the_beginning"></span>

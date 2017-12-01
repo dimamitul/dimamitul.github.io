@@ -310,6 +310,7 @@ html{
 	display: inline-block;
 	vertical-align: -webkit-baseline-middle;
 	font-size:20px; 
+	position: relative;
 }
 .nav_menu_top_wrapper ul{
 	position: relative;
@@ -326,7 +327,8 @@ html{
     border-radius: 5%;
     flex-direction: column;
 	z-index: 1000;	
-    background: white;
+	background: white;
+	min-width: 100%;
 	
 }
 .nav_menu_top_wrapper ul a{
@@ -340,6 +342,11 @@ html{
 .nav_menu_top_wrapper ul ul a{
 	background: white;
 	color:#697a9c;
+}
+
+.nav_menu_top_wrapper ul ul li{
+	min-width: 100%;
+	white-space: nowrap;
 }
 .nav_menu_top_wrapper li:hover ul{
 	display: flex;
