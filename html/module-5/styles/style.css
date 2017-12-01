@@ -1,0 +1,143 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+.index_background{
+	background: url('../img/background_1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+.nav_menu_top_wrapper{
+    text-align: center;
+}
+.nav_menu_top_wrapper ul li{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: -webkit-baseline-middle;
+	font-size:20px; 
+}
+.nav_menu_top_wrapper ul{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.nav_menu_top_wrapper ul ul{
+	display: none;
+	position: absolute;
+	border-radius: 5%;
+}
+.nav_menu_top_wrapper a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.nav_menu_top_wrapper ul ul a{
+	background: white;
+	color:#697a9c;
+}
+.nav_menu_top_wrapper li:hover ul{
+	display: block;
+}
+.nav_menu_top_wrapper li:hover li{
+	display: block;
+}
+.nav_menu_top_wrapper a:hover{
+	color: #263555;
+}
+.nav_menu_top_wrapper ul ul li a{
+	padding: 5px 10px;
+}
+.wrapper{
+	margin: 5% 10%;
+	padding: 5%;
+	background: hsla( 100, 50%, 10%, 0.5);
+	background-color: white;
+	float: left;
+	position: relative;
+}
+.content_wrapper{
+	width: 100%;
+}
+.return_to_the_beginning{
+	display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    bottom: 2%;
+    right: 2%;
+    background-color: #38afe5;
+    background-image: url('../img/arrow_top.png');
+}
+.img_container{
+	position: relative;
+	padding: 10px;
+}
+.img_auto_height{
+	width: 100%;
+	height: auto;
+}
+.color_text{
+	color: #263555;
+}
+.article_preview{
+	float: left;
+    width: 33.333333%;
+}
+.img_auto_height_article_preview{
+	width: 100%;
+	height: 260px;
+}
+.white_span{
+	display: inline-block;
+    position: absolute;
+    padding: 15px;
+    bottom: 50%;
+    color: #263555;
+    background-color: white;
+    font-size: 14px;
+}
+.blue_span{
+	display: inline-block;
+    position: absolute;
+    padding: 15px;
+    top: 50%;
+    color: white;
+    background-color: #38afe5;
+    font-size: 20px;
+}
+.border_radius{
+	display: block;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    bottom: 10%;
+    left: 5%;
+    background-color: #38afe5;
+}
+.article_preview_description{
+	display: block;
+    position: absolute;
+    width: 45%;
+    height: 240px;
+    padding: 10px;
+    background-color: #193149;
+    color: white;
+    overflow: hidden;
+}
+.btn{
+	text-decoration: none;
+    color: black;
+    background: white;
+    padding: 2px 12px;
+    border-radius: 8%;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+}
+.text_small{
+	font-size: 0.74em;
+
+}
+

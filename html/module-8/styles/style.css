@@ -1,0 +1,373 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+.index_background{
+	background: url('../img/background_1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+.wrapper{
+	margin: 5% 10% 0;
+	padding: 5%;
+	background: hsla( 100, 50%, 10%, 0.5);
+	background-color: white;
+	position: relative;
+	
+}
+.flex_row{
+	justify-content: flex-start;
+    flex-wrap: wrap;
+	display: flex;
+    flex-direction: row;
+}
+.flex_column{
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	display: flex;
+    flex-direction: column;
+}
+.flex_row_inline{
+	justify-content: flex-start;
+    flex-wrap: wrap;
+	display: inline-flex;
+    flex-direction: row;
+}
+.flex_column_inline{
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	display: inline-flex;
+    flex-direction: column;
+}
+.content_left{
+	width: 70%;
+}
+.content_left ul li{
+	color: #263555;
+	list-style-type: none;
+}
+.sidebar{
+	width: 30%;
+	position: relative;
+    left: 25px;
+}
+.sidebar ol li{
+	list-style-type: none;
+}
+.digits{
+	width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border-radius: 15px;
+    background-color: #38afe5;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 6px;
+    color: white;
+    position: absolute;
+    left: -5px;
+}
+.img_left_streamline{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.content_half{
+	width: 50%;
+}
+
+.text_article{
+	border: 1px black solid;
+	margin-bottom: 0;
+	padding: 15px;
+}
+.article{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-width: 0.1px 0.1px 0 0;
+	transform: rotate(-225deg);
+	margin: 0;
+	top: 202px;
+	position: absolute;
+	left: 120px;
+	background-color: white;
+}
+.color_text{
+	color: #263555;
+}
+.color_text_name{
+	color: #263555;
+	text-align: center;
+}
+.authorship{
+	text-align: center;
+}
+
+
+
+.footer{
+    margin: 0 10%;
+    height: auto;
+    
+}
+.footer_top{
+	background-color: #263555; 
+	justify-content: space-around;
+}
+.text_white{
+	color: white;
+}
+
+.footer_column{
+    padding: 40px;
+}
+.social_icon{
+	margin: 20px 0;
+    width: 50px;
+    height: 50px;
+	background: url('../img/social_icons.png') no-repeat;
+}
+.social_icons_container{
+	justify-content: center;
+
+}
+
+.twiter{
+    background-position-x: -13px;
+}
+.facebook{
+	background-position-x: -65px;
+}
+.google_plus{
+	background-position-x: -118px;
+}
+.instagram{
+	background-position-x: -170px;
+}
+.copyright{
+	text-align: center;
+}
+.return_to_the_beginning{
+	display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    bottom: 2%;
+    right: 2%;
+    background-color: #38afe5;
+    background-image: url('../img/arrow_top.png');
+    background-position-y: 3px;
+}
+.img_gallery{
+	width:100%;
+	height: auto;
+}
+.width_gallery{      
+	width: 33.3333333%;
+    padding: 0 10px 10px 0;
+    height: 155px;
+    box-sizing: border-box;
+}
+.img_container_gallery{
+    overflow: hidden;
+    height: 100%;
+}
+.opacity{
+	opacity: 1.0;
+}
+.opacity:hover{
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+}
+.blog_container{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+    background-color: #38afe5;
+}
+.blog_items_container{
+	width: 70%; 
+}
+.sidebar{
+	width: 30%;
+}
+.blog_item{
+	width: 100%;
+}
+.blog_item_header{
+	width: 100%;
+}
+.blog_item_content{
+	width: 100%;
+}
+.blog_item_img{
+	width: 40%;
+	height: 225px;
+}
+.blog_item_preview{
+	box-sizing: border-box;
+	width: 60%;
+	padding: 0 10px;
+}
+.img_container{
+	margin-top: 20px;
+	overflow: hidden;
+    width: 100%;
+	height: 100%;
+    box-sizing: border-box;
+}
+
+.img{
+	width: 100%;
+    height: auto;
+}
+.calendar_mark{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	text-align: center;
+	color: white;
+	background-color: #38afe5;
+	font-size: small;
+	justify-content: center;
+}
+.list_item ul{
+	color: #263555;
+	list-style-type: none;
+}
+.btn{
+	text-decoration: none;
+    color: black;
+    background: #fcf5f6;
+    padding: 2px 12px;
+    border-radius: 8%;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+}
+.calendar{
+	width: 10%;
+}
+.blog_item_title{
+	width: 90%; 
+}
+.blog_item_author_name{
+	width: 50%;
+}
+.comments_count{
+	width: 50%;
+	justify-content: flex-end;
+
+}
+.text_muted{
+	color: #868f8f;
+}
+
+.width_gallery{      
+	width: 33.3333333%;
+    padding: 0 10px 10px 0;
+    height: 10em;
+    box-sizing: border-box;
+}
+/*  */
+@media (max-width: 1024px) {
+	.width_gallery{      
+		width: 33.3333333%;
+		height: 10em;
+	}
+}
+
+
+
+@media (max-width: 768px) {
+	.width_gallery{      
+		width: 50%;
+		height: 9em;
+	}
+	}
+
+	
+@media (max-width: 480px) {
+	.width_gallery{      
+		width: 100%;
+		height: 10em;
+		
+	}
+	}
+
+
+	/* Верхнее меню  */
+.nav_menu_top_wrapper{
+	justify-content: center;
+}
+.nav_menu_top_wrapper ul li{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: -webkit-baseline-middle;
+	font-size:20px; 
+}
+.nav_menu_top_wrapper ul{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+}
+.nav_menu_top_wrapper ul ul{
+	display: none;
+    position: absolute;
+    border-radius: 5%;
+    flex-direction: column;
+	z-index: 1000;	
+    background: white;
+	
+}
+.nav_menu_top_wrapper ul a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.nav_menu_top_wrapper ul ul a{
+	background: white;
+	color:#697a9c;
+}
+.nav_menu_top_wrapper li:hover ul{
+	display: flex;
+}
+.nav_menu_top_wrapper ul a:hover{
+	color: #263555;
+}
+.nav_menu_top_wrapper ul ul li a{
+	padding: 5px 10px;
+}
+
+/*  */
+.logo_tablet{
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+	
+@media (max-width: 768px) {
+	.nav_menu_top_wrapper ul .logo{      
+		display: none;
+		
+	}
+	.logo_tablet{
+		display: block;
+	}
+
+	.nav_menu_top_wrapper ul li{
+		width:33.33333% 
+	}
+}

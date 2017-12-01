@@ -1,0 +1,29 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+.index_background{
+	background: url('../img/background.png') no-repeat center center fixed;
+	background-size: cover;
+}
+.wrapper{
+	width: 500px;
+	margin: 0 auto;
+	padding: 30px;
+	background: hsla( 100, 50%, 10%, 0.5);
+	background-color: white;
+	overflow: hidden;
+}
+.content_half{
+	width: 50%;
+	float: left;
+	position: relative;
+	list-style-type: none;
+}
+.content_half ul li{
+	color: #263555;
+	list-style-type: none;
+}
+.color_text{
+	color: #263555;
+}
