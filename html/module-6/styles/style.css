@@ -272,9 +272,9 @@ html{
 	font-size: small;
 	justify-content: center;
 }
-.list_item ul{
+.list_item{
 	color: #263555;
-	list-style-type: none;
+	margin: 0 2em;
 }
 .btn{
 	text-decoration: none;
@@ -300,4 +300,7 @@ html{
 }
 .text_muted{
 	color: #868f8f;
+}
+.indent{
+	padding: 0 2.3em;
 }

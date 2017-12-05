@@ -269,9 +269,8 @@ html{
 	justify-content: flex-end;
 	margin-right: 15px;
 }
-.list_item ul{
+.list_item{
 	color: #263555;
-	list-style-type: none;
 }
 /*  */
 
@@ -356,3 +355,4 @@ html{
 .form_input{
 	width: 100%;
 }
+
