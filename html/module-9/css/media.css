@@ -88,11 +88,30 @@
 		display: flex;
 		justify-content: space-around;
 	}
+	.text-center{
+		text-align: center;
+		font-size: 10px;
+	}
+	.nav_menu_top_wrapper ul a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 15px;
+	}
+	.size_text{
+		font-size: 22px;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.text-center{
+		text-align: center;
+		font-size: 10px;
+	}
 }
 
 
