@@ -1,0 +1,185 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-color: #f2f2f2;
+}
+.index_background{
+	background-image: url('../img/TopHeadr_img.png');
+	background-repeat: no-repeat;
+}
+/* Верхняя часть */
+
+.top_header{
+	background-color: #1a5f74;
+	width: 100%;
+	
+}
+.input{
+	background-image: url(../img/Search-32.png); 
+	background-position: right;
+	background-repeat: no-repeat;
+	margin-top: 0.7em;
+	width: 100%;
+}
+.text_color_white{
+	color: white;
+}
+.site_logo{
+	display: flex;
+	justify-content: center;
+}
+.user_bell{
+	text-align: center;
+}
+
+/* Контент */
+
+.content{
+	width: 100%;
+	padding-top: 10em;
+}
+.block{
+	position: relative;
+}
+.container_english_kids{    
+	width: 100%;
+}
+.pen{
+    position: absolute;
+    padding-left: 1em;
+    padding-top: 0.2em;
+
+}
+.english_kids{
+    padding-left: 4em;
+}
+.training{
+    width: 100%;
+    background-color: white;
+	padding: 1em;
+}
+.graduate{
+	position: absolute;
+}
+.start_training{
+	padding: 0.1em 2em;
+}
+.arrowhead_up{
+    position: absolute;
+    right: 0;
+    top: 0.2em;
+    padding: 0 2em;
+}
+.arrowhead_down{
+	position: absolute;
+    right: 0;
+    top: 0.2em;
+    padding: 0 2em;
+}
+.article{
+    margin: 2em;
+}
+.courses{
+	width: 100%;
+}
+.block_school{
+	width: 100%;
+	position: relative;
+	background-color: white;
+}
+.img_container{
+	width: 100%;
+    height: auto;
+	padding: 0.6em;
+    margin-top: 2em;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.logo_star{
+	position: absolute;
+	width: 100%;
+    margin-top: -1.8em;
+}
+.top_star{
+	margin-left: 1.6em;
+}
+.logo{
+    bottom: 1.8em;
+    padding: 0.91em;
+}
+.container_check_mark_school{
+	position: relative;
+}
+.check_mark{
+    position: absolute;
+    padding: 0.5em;
+    padding-top: 0;
+}
+.school{
+	padding-left: 2.5em;
+}
+.informant{
+	padding: 0.5em;
+    font-size: 0.9em;
+}
+.text_gray{
+	color: #979797;
+}
+.label{
+	position: absolute;
+    padding: 0.5em;
+    padding-top: 0;
+}
+.location{
+	font-size: 0.9em;
+	padding-left: 2em;
+	padding-bottom: 0.5em;
+}
+.text_curses{
+	padding-left: 1em;
+}
+.but{
+	position: relative;
+	padding-top: 19em;
+	padding-left: 1.9em;
+}
+.buttons{	
+	display: block;
+	position: absolute;
+    width: 2em;
+    height: 2.2em;
+	background-color: white;
+}
+.buttons_left{
+	position: absolute;
+}
+.buttons_right{
+	position: absolute;
+	margin-left: 0.4em;
+    padding-top: 0.1em;
+}
