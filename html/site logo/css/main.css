@@ -125,8 +125,11 @@ body {
 	width: 100%;
     margin-top: -1.8em;
 }
+.top_star_courses{
+	margin-left: 2em;
+}
 .top_star{
-	margin-left: 1.6em;
+	margin-left: 0.9em
 }
 .logo{
     bottom: 1.8em;
